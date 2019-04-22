@@ -1,4 +1,4 @@
-#based on the lexicographic permutation generation algorithm presented in the book, 
+#Based on the lexicographic permutation generation algorithm presented in the book, 
 #"The Art of Computer Programming, Generating All Tuples and Permutations" by Donald Knuth.
 
 #Answer = 2783915460
