@@ -24,7 +24,6 @@ def prime_factors(number):
   for i in range(2, int(m.sqrt(number))):
     if(number%i == 0 and is_prime(i) == True):
       divisor_list.append(i)
-  print(divisor_list)
   LPF = divisor_list.pop()
   return LPF
 
