@@ -24,7 +24,7 @@ def length_of_recurring_cycle(string):
 	if max_pos == min_pos == 0:
 		return 0
 	else:
-		return max_pos - min_pos -1
+		return max_pos - min_pos - 1
 
 
 def find_decimal_reciprocal(number):
