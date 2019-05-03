@@ -15,7 +15,7 @@ def prime_factorization(number):
 
 	for i in range(3, int(m.sqrt(number))+1, 2):
 		while number%i ==0:
-			prime_factors_list.append(i)
+			prime_factors_list.append(int(i))
 			number = number/i
 
 	if number > 2:
