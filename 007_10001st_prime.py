@@ -3,7 +3,7 @@
 
 import time 
 import math as m
-start = time.time()
+
 
 def is_prime(number):
   if number <= 1: return False
@@ -33,7 +33,7 @@ def find_nth_prime(n):
      
   return nth_prime
 
-
+start = time.time()
 x = find_nth_prime(10001)
 
 elapsed = time.time() - start
