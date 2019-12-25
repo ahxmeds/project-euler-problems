@@ -20,6 +20,7 @@ permutation_dictionary = {}
 
 
 permutation_dictionary[1] = ''.join(str(i) for i in num)
+print(permutation_dictionary)
 
 total_permutations = factorial(len(num)) #can use this in the for loop below for calculating all the permutations 
                                          #lexicographic order
@@ -43,7 +44,6 @@ for count in range(2, till_N+1):
 
   num[max_k+1:len(num)] = reversed(num[max_k+1:len(num)])
   permutation_dictionary[count] = ''.join(str(i) for i in num)
-  #print(str(i) + " : " + str(permutation_dictionary[i]))
 
 elapsed = time.time() - start
     
